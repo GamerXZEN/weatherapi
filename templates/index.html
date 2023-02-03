@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <title>Weather Data API</title>
 </head>
-<body>
+<body style="color: wheat; background-color: black">
     <h1>
         Weather Data API Home
     </h1>
     <h4>This is the home for the Weather API built by GamerXZEN using the REST API Architecture</h4>
-    <p>URL format: http://127.0.0.1:1472/v1.2/<em>station</em>/<em>date</em></p>
-    <p>URL example: http://127.0.0.1:1472/v1.2/10/2020-10-29</p>
+    <p>URL format: http://127.0.0.1:1472/v2.1/<em>station</em></p>
+    <p>URL example: http://127.0.0.1:1472/v2.1/10/</p>
+    <p>URL format: http://127.0.0.1:1472/v2.1/<em>station</em>/year/<em>year</em></p>
+    <p>URL example: http://127.0.0.1:1472/v2.1/10/year/2020</p>
+    <p>URL format: http://127.0.0.1:1472/v2.1/<em>station</em>/date/<em>date</em></p>
+    <p>URL example: http://127.0.0.1:1472/v2.1/10/date/2020-10-29</p>
+    <p>There is also extra data here, but they are not displayed in the table.</p>
+    <p>{{data|safe}}</p>
 
 
 </body>
